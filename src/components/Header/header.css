@@ -1,20 +1,27 @@
 @import "../../common/color.css";
 
 .header {
-  background-color: var(--sec-color);
-  height: 72px;
-  padding: 0px 40px;
+  background-color: var(--blue);
+  height: 60px;
+}
+.header .container {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
+
 .logo {
-  color: var(--font-pry);
-  font-size: 20px;
-  font-weight: 600;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  padding: 15px 0px;
 }
-.user-image,
-.user-image img {
-  width: 38px;
-  height: 38px;
+.logo img {
+  height: 30px;
+  width: 30px;
+}
+.logo p {
+  color: var(--light-0);
+  font-weight: 700;
+  font-size: 1.1rem;
 }

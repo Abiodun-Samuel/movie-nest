@@ -1,7 +1,6 @@
 :root {
-  --pry-color: #0f171e;
-  --sec-color: #1a242f;
-  --font-pry: #ffffff;
-  --font-sec: #79b8f3;
+  --light-0: #d2e2f0;
+  --light-1: #6caef5;
+  --blue: #2555e6;
+  --black: #242424;
 }
-

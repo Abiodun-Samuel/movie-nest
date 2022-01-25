@@ -3,6 +3,11 @@
 .card-item {
   background: var(--sec-color);
   cursor: pointer;
+  transition: all 0.5s;
+}
+.card-item:hover {
+  transform: scale(1.1);
+  transition: all 0.5s;
 }
 .card-top {
   height: 300px;
@@ -13,13 +18,12 @@
 }
 .card-info {
   color: var(--font-pry);
-
 }
-.card-bottom{
-   padding: 20px;
+.card-bottom {
+  padding: 20px;
 }
-.card-info h4{
-   font-size: 22px;
-   font-weight: 400;
-   margin-bottom: 10px;
+.card-info h4 {
+  font-size: 22px;
+  font-weight: 400;
+  margin-bottom: 10px;
 }
